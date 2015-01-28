@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% if title %}
+        <title>{{ title }} - Maintenance Minder</title>
+        {% else %}
+        <title>Maintenance Minder</title>
+        {% endif %}
+    </head>
+    <body>
+        <div><a href="/home">Home</a></div>
+        <hr>
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html>

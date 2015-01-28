@@ -55,3 +55,7 @@ target/
 
 # Virtual Evironment
 flask/
+
+# Database stuff
+app.db
+db_repository/
